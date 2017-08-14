@@ -1,0 +1,95 @@
+@import 'https://fonts.googleapis.com/css?family=Muli';
+body {
+  background-color: #071013;
+  color: white;
+  font-family: 'Muli', sans-serif;
+}
+.gamefield {
+  max-width: 480px;
+  margin: 20px auto;
+}
+.align {
+  display: flex;
+  justify-content: center;
+}
+.top-row {
+  display: flex;
+  justify-content: center;
+}
+.middle-row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 15px auto;
+}
+.bottom-row {
+  display: flex;
+  justify-content: center;
+}
+.gamebutton {
+  width: 90px;
+  height: 90px;
+  border-radius: 400px;
+}
+#blue {
+  border: 4px solid #08BDBD;
+  margin: 20px;
+}
+#blue:active {
+  background-color: #08BDBD;
+}
+#green {
+  border: 4px solid #FFFFFF;
+  margin: 20px;
+}
+#green:active {
+  background-color: #FFFFFF;
+}
+#red {
+  border: 4px solid #F21B3F;
+  margin: 20px;
+}
+#red:active {
+  background-color: #F21B3F;
+}
+#dark {
+  border: 4px solid #FF9914;
+  margin: 20px;
+}
+#dark:active {
+  background-color: #FF9914;
+}
+#blue.hover {
+  background-color: #08BDBD;
+}
+#green.hover {
+  background-color: #FFFFFF;
+}
+#red.hover {
+  background-color: #F21B3F;
+}
+#dark.hover {
+  background-color: #FF9914;
+}
+.btn-sett {
+  font-size: 2.7em;
+  text-align: left;
+  transition: 500ms;
+  width: 70px;
+  margin-right: 340px;
+}
+.btn-sett:hover {
+  color: #29BF12;
+}
+.modal-title {
+  color: #071013;
+  text-align: center;
+}
+.black {
+  color: #071013;
+  text-align: center;
+}
+#strict {
+  margin: 5px auto;
+  text-align: center;
+}
