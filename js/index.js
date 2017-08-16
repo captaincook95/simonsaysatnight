@@ -9,7 +9,7 @@ function start(){
         alert("Nur Ziffern sind zulässig");
 		} 
 		else{
-		location.href="simon.html?code=" + $('#codeInput').val();
+		location.href="simon2.html?code=" + $('#codeInput').val();
 		}
 	}
 }

@@ -11,7 +11,8 @@ if(strGET!='')
         HTTP_GET_VARS[unescape(vArr[0])]=unescape(v);
         }
     }
-var code = HTTP_GET_VARS["key"];
+var code = HTTP_GET_VARS["code"];
+code = "" + code + (2*code) + (3*code) + (4*code);
 var combinationDecoded = combinationEncoded + parseInt(code);
 combinationDecoded = "" + combinationDecoded;
 var combinationArray = [];
