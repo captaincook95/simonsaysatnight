@@ -97,7 +97,7 @@ function addToPlayer(id) {
 function playerTurn(x) {	
   if (game.player[game.player.length - 1] !== game.currentGame[game.player.length - 1]) {
       alert("Falsche Eingabe");
-	  location.href="coords.html?code=" + code;
+	  location.href="index.html";
    } else {
       sound(x);
       var check = game.player.length === game.count;
@@ -146,7 +146,7 @@ function startTimer(duration, display) {
 		
         } else {
 			alert("Zeit abgelaufen");
-			location.href="coords.html?code=" + code;
+			location.href="index.html";
 		}
     }, 1000);
 }
