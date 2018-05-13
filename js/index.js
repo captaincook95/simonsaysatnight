@@ -9,7 +9,7 @@ function start(){
         alert("Nur Ziffern sind zulässig");
 		} 
 		else{
-		location.href="http://htmlpreview.github.io/?https://github.com/captaincook95/simonsaysatnight/blob/master/simon2.html%3Fcode=" + $('#codeInput').val();
+		location.href="http://htmlpreview.github.io/?https://github.com/captaincook95/simonsaysatnight/blob/master/simon2.html?code=" + $('#codeInput').val();
 		}
 	}
 }
