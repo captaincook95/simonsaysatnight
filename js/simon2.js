@@ -1,5 +1,5 @@
 var combinationEncoded = 3230057076;
-alert(document.location.substr(-2));
+alert(document.location.search.substr(-2));
 HTTP_GET_VARS=new Array();
 strGET=document.location.search.substr(1,document.location.search.length);
 if(strGET!='')
