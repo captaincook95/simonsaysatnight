@@ -12,7 +12,7 @@ if(strGET!='')
         HTTP_GET_VARS[unescape(vArr[0])]=unescape(v);
         }
     }
-var code = HTTP_GET_VARS["key"];
+var code = window.location.href.substr(-8);
 north = "" + (northEncoded + parseInt(code));
 east = "" + (eastEncoded + parseInt(code));
 
