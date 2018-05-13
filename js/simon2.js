@@ -1,5 +1,4 @@
 var combinationEncoded = 3230057076;
-alert(window.location.href.substr(-2));
 HTTP_GET_VARS=new Array();
 strGET=document.location.search.substr(1,document.location.search.length);
 if(strGET!='')
@@ -12,7 +11,7 @@ if(strGET!='')
         HTTP_GET_VARS[unescape(vArr[0])]=unescape(v);
         }
     }
-var code = HTTP_GET_VARS["code"];
+var code = window.location.href.substr(-2);
 code = "" + code + (2*code) + (3*code) + (4*code);
 var combinationDecoded = combinationEncoded + parseInt(code);
 combinationDecoded = "" + combinationDecoded;
